@@ -6,8 +6,8 @@ import java.util.Date;
 import java.util.List;
 
 import devutility.internal.data.converter.ConverterUtils;
-import devutility.internal.test.data.constants.Gender;
 import devutility.internal.util.RandomUtils;
+import devutility.test.constant.Gender;
 
 public class Person implements Comparable<Person> {
 	private String name;
