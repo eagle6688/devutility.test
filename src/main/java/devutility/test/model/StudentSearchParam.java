@@ -2,7 +2,6 @@ package devutility.test.model;
 
 import java.util.Arrays;
 
-import devutility.internal.annotation.NeedToken;
 import devutility.internal.model.BaseSearchParam;
 
 public class StudentSearchParam extends BaseSearchParam<Student> {
@@ -14,11 +13,6 @@ public class StudentSearchParam extends BaseSearchParam<Student> {
 
 	public void setNumbers(String[] numbers) {
 		this.numbers = numbers;
-	}
-
-	@NeedToken
-	public String testNeetToken() {
-		return null;
 	}
 
 	@Override
