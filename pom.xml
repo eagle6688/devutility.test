@@ -8,9 +8,9 @@
 	<artifactId>devutility.test</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
+	<url>https://github.com/eagle6688/devutility.test</url>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Some classes for test usage.</description>
-	<url>https://github.com/eagle6688/devutility.test</url>
 
 	<!-- scm -->
 	<scm>
