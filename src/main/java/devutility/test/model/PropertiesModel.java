@@ -1,14 +1,14 @@
 package devutility.test.model;
 
-import devutility.internal.annotation.PropertiesKey;
+import devutility.internal.annotation.Property;
 
 public class PropertiesModel {
-	@PropertiesKey("test.loginName")
+	@Property("test.loginName")
 	private String loginName;
 
 	private String password;
 
-	@PropertiesKey("test.timeout")
+	@Property("test.timeout")
 	private int timeout;
 
 	public String getLoginName() {
